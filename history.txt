@@ -1,0 +1,200 @@
+    1  sudo apt install chromium-browser
+    2  ls
+    3  pwd
+    4  workspace
+    5  cd
+    6  ls
+    7  desktop
+    8  Desktop
+    9  ls
+   10  cd Desktop
+   11  ls
+   12  cd REadMe
+   13  cd ReadMe
+   14  ls
+   15  cp ReadMe
+   16  touvh ReadMe.md
+   17  touch ReadMe.md
+   18  cp ReadMe.md CHANGELOG.md
+   19  touch
+   20  ls
+   21  pwd
+   22  mkdir workspace
+   23  cd workspace
+   24  ls
+   25  touch README.md
+   26  cp README.md CHANGELOG.md
+   27  cd CHANGELOG.md
+   28  ls
+   29  cat > exercise.md
+   30  ls
+   31  mv exercise.md/tmp 
+   32  ls
+   33  mv exercise.md /tmp
+   34  ls
+   35  touch {umuzi, recruits, cohort}.md
+   36  ls
+   37  touch umuzi.md recruits.md cohort.md
+   38  ls
+   39  rm {umuzi, recruits, cohort}.md
+   40  ls
+   41  umuzi.md Umuzi is an acamedy for technical and media studies
+   42  cat umuzi.md cohort.md recruits.md
+   43  ls
+   44  echo '1 september 2019 beginning of cohort 18 and 17' > umuzi.md
+   45  echo 'MUB experience was amaxing and took a week' >cohort.md
+   46  echo 'MUB group was a success' > recruits.md
+   47  cat umuzi.md recruits.md cohort.md
+   48  cat umuzi.md recruits.md cohort.md > Summary.md
+   49  ls
+   50  cd Summary.md
+   51  ls
+   52  cat umuzi.md cohort.md recruits.md >> Summary.md
+   53  echo 'The End' > Summary.md
+   54  ls
+   55  \ cd Summary.md
+   56  cat Summary.md 
+   57  locate umuzi.md
+   58  locate umuzi
+   59  cd Documents
+   60  ls
+   61  find umuzi
+   62  find umuzi.md
+   63  cat umuzi.md > search_results.md
+   64  cd
+   65  ls
+   66  ls Documents
+   67  touch pad.md
+   68  ls
+   69  cat pad.md > Documents
+   70  mv pad.md > Documents
+   71  mv pad.md_Documents
+   72  rm pad.md
+   73  ls
+   74  cd Documents
+   75  touch pad.md
+   76  ls
+   77  cd Desktops
+   78  cd
+   79  ls
+   80  cd Desktop
+   81  touch work
+   82  ls
+   83  cp pad.md >pad_copy.md 
+   84  cp pad.md Desktop pad_copy.md
+   85  cp pad.md Desktop
+   86  cd
+   87  cp pad.md Desktop 
+   88  cp pad.md pad_copy.md
+   89  ls
+   90  cd Documents
+   91  cp pad.md pad_copy.md
+   92  ls
+   93  mv pad_copy.md Desktop
+   94  cd
+   95  ls
+   96  ls Desktop
+   97  locate updatedb
+   98  cd -
+   99  locate pad_copy.md]
+  100  locate pad_copy.md
+  101  history
+  102  find. -name "*pdf" >pad.md
+  103  find . _name "*pdf"
+  104  locate '*.pdf'
+  105  find ~ -name \*.pdf
+  106  find ~ -name \*.pdf>pad.dm
+  107  ls
+  108  find ~ -name \*.pdf>pad.md
+  109  ls
+  110  nano --version
+  111  nano +line_number,character_number my_bio.md
+  112  mkdir my_files
+  113  mv my_bio.md>my_files.md
+  114  ls
+  115  rm my_files.md
+  116  ls
+  117  mv my_bio.md>my_files
+  118  cd my_files
+  119  mv my_bio.md
+  120  cd
+  121  mv my_bio.md my_files
+  122  cd
+  123  ls
+  124  cd my_files
+  125  ls
+  126  history
+  127  fc -l 2 126 |tee Exercise.txt
+  128  sudo dnf install git-all
+  129  sudo apt install git-all
+  130  cd /home/thabile/my_files
+  131  ls
+  132  mkdir git-basic-exercises
+  133  cd
+  134  ls
+  135  cd git-basic-exercises
+  136  cd my_files
+  137  ls
+  138  rm git-basic-exercises
+  139  ls
+  140  cd git-basic-exercises
+  141  ls 
+  142  ls -a
+  143  git init
+  144  ls -a
+  145  git status
+  146  touch README.md
+  147  ls -a
+  148  git status
+  149  git log
+  150  git add README.md
+  151  git status
+  152  git rm --cached <README.md>...
+  153  git status
+  154  git commit -m "initial comit"
+  155  git config --global user.email "thabile.mngoma@umuzi.org" git config --global user.name "thabile"
+  156  git status
+  157  git commit -m "initial commit"
+  158  git config user.email "thabile.mngoma@umuzi.org"
+  159  git config user.name "thabile"
+  160  git status
+  161  git commit -m "initial commit"
+  162  git log
+  163  q
+  164  nano README.md
+  165  y
+  166  cat README.md
+  167  git stats
+  168  git status
+  169  ls
+  170  git commit -m
+  171  git status
+  172  nano README.md
+  173  cat README.md
+  174  git status
+  175  git commit -m "second commit"
+  176  git add <README.md>
+  177  git status
+  178  git add README.md
+  179  git status
+  180  git commit -m "second commit"
+  181  git add README.md
+  182  git status
+  183  git commit -m "third commit"
+  184  git log
+  185  q
+  186  git checkout 44078b302e2ea081effc5c10aea2b76cb5862658
+  187  cat README.md
+  188  git checkout master
+  189  cat README.md
+  190  git branch
+  191  git branch milkshake-flavours
+  192  git branch
+  193  git checkout milkshake-flavours 
+  194  nano milkshake-flavours.md
+  195  git status
+  196  git add milkshake-flavours
+  197  git add milkshake-flavours.md 
+  198  git commit -m "added initial flavours"
+  199  git log
+  200  history > history.txt
